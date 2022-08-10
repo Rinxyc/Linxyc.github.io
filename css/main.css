@@ -1241,7 +1241,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #f7ffd4;
+  background: #ff1b73;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2527,4 +2527,20 @@ body {
 .category-list li.active a {
   font-weight: bold;
   color: #000;
+}
+blockquote.question {
+  color: #555;
+  border-left: 4px solid #1098ad;
+  background-color: #e3f2fd;
+  margin-bottom: 20px;
+}
+/* 文件位置：~/sourse/_data/styles.styl */
+span#inline-toc {
+  display: inline-block;
+  border-radius: 80% 100% 90% 20%;
+  background-color: #e3f2fd;
+  color: #555;
+  padding: 0.05em 0.4em;
+  margin: 2px 5px 2px 0px;
+  line-height: 1.5;
 }
