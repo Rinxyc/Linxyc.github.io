@@ -1241,7 +1241,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff1b73;
+  background: #ff7cff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2463,7 +2463,7 @@ body {
   background-position: 50% 50%;
 }
 .content-wrap {
-  opacity: 0.9;
+  opacity: 0.5;
 }
 .sidebar {
   opacity: 0.9;
@@ -2478,7 +2478,7 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 25px;
-  -webkit-box-shadow: 0 0 5px #cacbcb;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 .post-block.page {
@@ -2534,7 +2534,6 @@ blockquote.question {
   background-color: #e3f2fd;
   margin-bottom: 20px;
 }
-/* 文件位置：~/sourse/_data/styles.styl */
 span#inline-toc {
   display: inline-block;
   border-radius: 80% 100% 90% 20%;
