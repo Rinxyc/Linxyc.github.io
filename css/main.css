@@ -1286,7 +1286,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff8e2d;
+  background: #208b98;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2517,84 +2517,25 @@ body {
   background-size: cover;
   background-position: 50% 50%;
 }
-.content-wrap {
-  opacity: 0.85;
-}
-.sidebar {
-  opacity: 0.85;
-}
-.header-inner {
-  background: rgba(255,255,255,0.85);
-}
-.popup {
-  opacity: 0.85;
-}
 .post {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
-.post-block.page {
-  margin-top: 40px;
+.main-inner {
+  background: #fff;
+  opacity: 0.85;
 }
-.category-all-page {
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-  background-color: #797d7f;
-  padding: 20px 30px 60px 30px;
-  border-radius: 25px 25px 25px 25px;
+.header-inner {
+  opacity: 0.85;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: rgba(0,0,0,0.1) 0px 15px 35px 0px, rgba(0,0,0,0.31) 6px 6px 10px 0px;
 }
-.category-all-title {
-  font-family: Impact;
-  font-size: 24px;
-  color: #0ff;
+.sidebar {
+  opacity: 0.85;
 }
-.category-list {
-  overflow: auto;
-}
-.category-list li {
-  height: 100%;
-  float: left;
-  border-right: 3px solid #222;
-  padding: 0 20px;
-}
-.category-all ul li {
-  list-style: none !important;
-}
-.category-list li:last-child {
-  border-right: none;
-}
-.category-list li a {
-  font-size: 16px;
-  text-decoration: none;
-  color: #7fff00;
-  font-family: Helvetica, Verdana, sans-serif;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.category-list li a:hover {
-  color: #000;
-}
-.category-list li.active a {
-  font-weight: bold;
-  color: #000;
-}
-blockquote.question {
-  color: #555;
-  border-left: 4px solid #1098ad;
-  background-color: #e3f2fd;
-  margin-bottom: 20px;
-}
-span#inline-toc {
-  display: inline-block;
-  border-radius: 80% 100% 90% 20%;
-  background-color: #e3f2fd;
-  color: #555;
-  padding: 0.05em 0.4em;
-  margin: 2px 5px 2px 0px;
-  line-height: 1.5;
+.popup {
+  opacity: 0.85;
 }
