@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/08/07/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Project2：CS61BYoG Phase1 地图生成项目个人记录</title>
     <url>/2022/11/21/CS61B%20Project2%20Phase1/</url>
     <content><![CDATA[<h3 id="项目背景"><a href="#项目背景" class="headerlink" title="项目背景"></a>项目背景</h3><p>本项目Project 2: CS61BYoG是伯克利2018年CS61B Data Structure的作业项目之一，具体的项目介绍可以参考<a href="https://sp18.datastructur.es/materials/proj/proj2/proj2">这里</a>。</p>
@@ -27,6 +9,9 @@
 <p>可以说，这个Project2真正让我入门CS，完成1次Project期间的思考、纠错过程的成长胜过10次学习新课。我对CS61B、主课的Josh Hug老师以及所有为本课作业项目付出努力的其他老师们只有深深的敬意与感谢。</p>
 <p>本文章也主要是对这个项目完成的记录，思路以及实现都很基础简单，泛用性更广的方法放在了下一篇文章迷宫三大算法里（一周内应该能写出来）</p>
 <hr>
+<span id="more"></span>
+
+
 <h3 id="项目要求"><a href="#项目要求" class="headerlink" title="项目要求"></a>项目要求</h3><p>本项目的Phase1要求生成一个包含房间与走廊的随机世界，并且：</p>
 <ol>
 <li>世界必须为2D Grid，且伪随机生成(Seed相同生成的世界也是相同的)</li>
