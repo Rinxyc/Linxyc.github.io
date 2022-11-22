@@ -133,7 +133,7 @@
 <p>随便写一个测试代码检验一下是否能生产迷宫，代码和最后的结果如下所示。</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="type">TERenderer</span> <span class="variable">ter</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">TERenderer</span>();</span><br><span class="line">    ter.initialize(WIDTH,HEIGHT);</span><br><span class="line">    <span class="type">long</span> <span class="variable">seed</span> <span class="operator">=</span> System.currentTimeMillis();</span><br><span class="line">    TETile[][] teTiles = MapGenerator.generate(seed);</span><br><span class="line">    ter.renderFrame(teTiles);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><img data-src="/images/Project2_Phase1/Door.png" alt="最后效果"></p>
+<p><img data-src="/images/Project2_Phase1/final.png" alt="最后效果"></p>
 <h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><p>怎么说呢，这个项目从我整理思路开始到最后完成花了接近10天的时间，期间思路更改过很多次，特别是在生成房间后如何生成走廊时，我考虑过好几种方法，还去学习了一些我不那么熟悉的Java知识，这些思路方法要么和我整个项目的思路有所冲突，要么实现起来太过于复杂，也违背了这个项目的本意。<br>回想起做这个项目的这两周，过程非常坎坷曲折，但最终还是做出了结果，在得到最后生成的地图时，很难能抑制住内心的激动与高兴。而那些看似走过的弯路：学习迷宫生成三大算法，学习重温Java知识以及过程中那些起初令人苦恼的思考过程，这些都让我受益匪浅。我以前没有做过什么项目，跟着老师的教学迷迷糊糊学到了这里，可以说这个Project才是我的原点。<br>最后的总结就是，那些看似困难的问题，看似复杂的项目，最终都需要我们脚踏实地一步一步去解决，把大问题分解成简单的小问题，而不要一味地陷入怕麻烦的心理，轻易去网上求助他人。<br>「敌人从一开始就不存在」，要战胜的只是唯有自己的畏缩不前的内心。<br><img data-src="/images/Project2_Phase1/Boki.jpg" alt="孤独摇滚"></p>
 ]]></content>
       <categories>
